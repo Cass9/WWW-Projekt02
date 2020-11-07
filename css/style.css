@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: dooodleista;
+    src: url("../font/Dooodleista.ttf");
+}
+.font {
+    font-family: dooodleista;
+    font-size: 5rem;
+    color: #006699;
+}
+[class*="col-"] {
+    padding: 1rem;
+}
+.logo {
+    width: 232px;
+    height: auto;
+}
+nav ul li {
+    margin: 0 10px 0 10px;
+    font-size: 110%;
+}
+.navbar {
+    transition: top 0.5s;
+}
+.fas {
+    margin: 6px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h2 {
+    text-shadow: 1px 1px 10px #000;
+    margin-bottom: 20px;
+    font-size: 2rem;
+} 
+.carousel-caption button {
+    margin-top: 20px;
+}
+.carousel-caption #tekstObrazek2 {
+    color: #57f7ea;
+}
+p {
+    margin-top: 10px;
+    font-size: 130%;
+}
+.img-css {
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    border: 30px solid rgb(204, 203, 203);
+}
+.Backgroundcolor {
+    background-color: rgb(245, 244, 244);
+}
+.card-row {
+    align-items: center;
+}
+[class*="row"] {
+    margin-top:  2rem;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    position: relative;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .content {
+    opacity: 0.9;
+}
+.border-info {
+    border: 2px solid #029acf;
+}
+.content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 600px;
+    height: auto;
+}
+label, input[type="text"], input[type="email"], select {
+    font-size: 150% !important;
+}
+.form-group {
+    margin-bottom: 30px;
+}
+@media screen and (max-width:1200px){
+    .carousel-caption h2 {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+    .font {
+        font-size: 4rem;
+    }
+    p {
+        font-size: 122%;
+    }
+    .card{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:992px){
+    .carousel-caption h1 {
+        font-size: 3.5rem;
+    }
+    .carousel-caption #tekstObrazek2 {
+        font-size: 3rem;
+    }
+    .font {
+        font-size: 3.5rem;
+    }
+    p {
+        font-size: 115%;
+    }
+}
+@media screen and (max-width:768px){
+    .logo {
+        width: 200px;
+    }
+    .carousel-inner img {
+        min-height: 370px;
+    }
+    nav .navbar-nav li a{
+        font-size: 80% !important;
+    }
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+    .carousel-caption #tekstObrazek2 {
+        font-size: 2.3rem;
+    }
+    .img-css {
+        border-radius: 15px;
+        border: 15px solid rgb(204, 203, 203);
+    }
+    p {
+        font-size: 110%;
+    }
+    .carousel-caption h2 {
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+    form {
+        width: auto;
+        height: auto;
+    }
+    label, input[type="text"], input[type="email"], select {
+        font-size: 100% !important;
+    }
+}
+
