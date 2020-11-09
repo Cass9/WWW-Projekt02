@@ -39,5 +39,4 @@ btnRozwin.addEventListener("click", () => {
         
     }
     tekst = tekst === "Pokaż więcej" ? "Pokaż mniej" : "Pokaż więcej";
-    debugger;
 });
