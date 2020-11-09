@@ -24,3 +24,20 @@ window.onscroll = () => {
         pozPoczScroll = pozAktScroll;
     }
 }
+
+const btnRozwin = document.getElementById("btnRozwin");
+let tekst = btnRozwin.innerHTML;
+
+btnRozwin.addEventListener("click", () => {
+    
+    if(tekst === "Pokaż więcej") {
+        btnRozwin.innerHTML = "Pokaż mniej";
+        
+    }
+    else {
+        btnRozwin.innerHTML = "Pokaż więcej";
+        
+    }
+    tekst = tekst === "Pokaż więcej" ? "Pokaż mniej" : "Pokaż więcej";
+    debugger;
+});
